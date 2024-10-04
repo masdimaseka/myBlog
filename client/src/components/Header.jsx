@@ -35,7 +35,9 @@ export default function Hedaer() {
             <FaMoon />
           </Button>
           <Link to="/sign-in">
-            <Button className="bg-blue-500">Sign In</Button>
+            <Button color="blue" outline>
+              Sign In
+            </Button>
           </Link>
           <Navbar.Toggle />
         </div>
